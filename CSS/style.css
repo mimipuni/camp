@@ -1,0 +1,164 @@
+
+body {
+    margin:0;
+
+    background-image:url(../img/back.png);
+}
+
+body {
+ 
+}
+
+body,p,h1,h2,h3,li,td,th{
+    color: #343434;
+}
+
+.clearfix:after {
+    content: " " ;
+    display: block;
+    clear:both;
+}
+
+
+.content {
+    width:1000px;
+    margin:0 auto;
+}
+
+.left_box {
+    float:left;
+}
+
+.right_box {
+    float:right;
+}
+
+/*ヘッダー*/
+
+.catch{
+    background-image:url(../img/back_catch.jpg);
+    background-size:cover;
+    background-position: center center;
+
+    padding-top: 150px;
+    padding-bottom:50px;
+}
+
+.top-bar {
+    padding:10px 0;
+}
+
+.text_contact {
+    color: #995e47;
+    font-size: 24px;
+    font-weight: 600;
+
+    vertical-align: middle;
+
+    margin-right: 20px;
+}
+
+.btn-contact {
+    vertical-align: middle;
+}
+
+
+/*ナビゲーション*/
+
+.main-nav {
+    padding: 10px 0;
+}
+
+.main-nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li a img:hover{
+    opacity: 0.5;
+
+}
+
+/*ホームコンテンツ*/
+.home-content {
+    background-color: #ffffff;
+
+}
+
+.home-content-box {
+    padding: 20px;
+    text-align: center;
+}
+
+.home-content-box h2 {
+    font-size: 32px;
+    color:#1b7708;
+
+}
+
+.home-content > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content-box p{
+    text-align: left;
+    color: #5d685b;
+}
+
+.home-banner{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/*フッター*/
+.site-map {
+    background-color: #dcd9e4;
+    padding: 15px 0px;
+
+}
+
+.site-map > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-map h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 900;
+}
+
+.site-map ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 1em;
+    
+}
+
+.site-map ul li a {
+    color: #6c6c6c;
+}
+
+.site-map ul li a:hover {
+    text-decoration: none;
+}
+
+.site-map p {
+    color: #6c6c6c;
+    padding-left: 15px;
+    margin: 0 0 1ex 0;
+}
+
+.footer-bar {
+    background-color: #643d0e;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+}
